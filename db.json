@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 37,
+      "first_name": "Zeke",
+      "last_name": "Maradona",
+      "user_name": "zMaradona",
+      "email": "12223@asda.123",
+      "is_active": true,
+      "owner_id": 1,
+      "plot_id": 1,
+      "addresses": [
+        {
+          "id": 2,
+          "street_address": "1",
+          "number": 2,
+          "floor": 12312,
+          "apartment": "312",
+          "city": "123",
+          "province": "SAN_LUIS",
+          "country": "PARAGUAY",
+          "postal_code": 123
+        }
+      ],
+      "contacts": [
+        {
+          "id": 2,
+          "contact_type": "PHONE",
+          "contact_value": "123",
+          "subscriptions": [
+            "GENERAL",
+            "MODERATION",
+            "CONSTRUCTION",
+            "EMPLOYEE_PAYMENT",
+            "EXPENSES_EXPIRATION",
+            "DEBT",
+            "GENERAL_BILL",
+            "PAYMENT",
+            "USER",
+            "ASSOCIATED_USER_CREATED",
+            "WORKER_LATE_DEPARTURE",
+            "INVENTORY",
+            "GENERAL_EXPENSE"
+          ]
+        }
+      ],
+      "roles": [
+        1002
+      ]
+    }
+  ]
+}
