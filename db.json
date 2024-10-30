@@ -45,7 +45,46 @@
         }
       ],
       "roles": [
-        1002
+        "FINANCE"
+      ]
+    },
+    {
+      "id": 38,
+      "first_name": "Ana",
+      "last_name": "Perez",
+      "user_name": "aPerez",
+      "email": "ana.perez@example.com",
+      "is_active": true,
+      "owner_id": 2,
+      "plot_id": 2,
+      "addresses": [
+        {
+          "id": 3,
+          "street_address": "Main St",
+          "number": 123,
+          "floor": 4,
+          "apartment": "B",
+          "city": "Ciudad",
+          "province": "CORDOBA",
+          "country": "ARGENTINA",
+          "postal_code": 5000
+        }
+      ],
+      "contacts": [
+        {
+          "id": 3,
+          "contact_type": "EMAIL",
+          "contact_value": "contacto@ana.com",
+          "subscriptions": [
+            "FINANCE",
+            "GENERAL",
+            "PAYMENT",
+            "USER"
+          ]
+        }
+      ],
+      "roles": [
+        "FINANCE"
       ]
     }
   ]
